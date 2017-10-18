@@ -102,6 +102,11 @@ h1, h2, h3 {
   font-family: 'Permanent Marker', cursive;
 }
 
+.full-width {
+  width: 96%;
+  margin: 0 2%;
+}
+
 
 
 
