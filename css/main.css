@@ -198,10 +198,16 @@ ul {
 /* Contact Section */
 #contact {
   background-color: #808080;
+  overflow: auto;
+}
+
+#contact h3 {
+  text-align: center;
 }
 
 form {
   width: 98%;
+  margin: auto;
 }
 
 input {
@@ -209,7 +215,7 @@ input {
   display: block;
   border: 1px solid #999;
   height: 25px;
-  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 8px #ff4000;
 }
 
 #message {
@@ -222,6 +228,18 @@ input {
   margin: 2%;
 }
 
+#contact img {
+  width: 20%;
+  height: auto;
+  float: left;
+  margin: 2%;
+}
+
+/* Footer Area */
+
+footer {
+  clear: both;
+}
 
 
 
