@@ -350,8 +350,9 @@ footer {
     }
 
     .third-width {
-      width: 33%;
+      width: 29%;
       float: left;
+      border: none;
     }
 
     header {
@@ -375,11 +376,15 @@ footer {
       overflow: auto;
     }
 
+    /* Skills Section */
     #skills {
       clear: both;
       overflow: auto;
+      border-top: 2px solid red;
+      border-bottom: 2px solid red;
     }
 
+    /* Contact Section */
     #contact {
       clear: both;
     }
