@@ -409,12 +409,14 @@ footer {
     }
 
     #message {
-      height: 12em;
+      height: 8em;
     }
 
     #contact img {
       float: none;
-      padding-left: 10%;
+      padding-left: 15%;
+      height: 25%;
+      width: auto;
     }
 
     #contact ul li a {
@@ -432,7 +434,7 @@ footer {
 
     #contact span {
       display: inline;
-      padding: 12%;
+      padding: 10%;
     }
 
     #footer {
