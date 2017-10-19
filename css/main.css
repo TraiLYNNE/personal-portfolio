@@ -340,6 +340,16 @@ footer {
    ========================================================================== */
 
 @media only screen and (min-width: 768px) {
+    .half-width {
+      width: 50%;
+      float: left;
+    }
+
+    .third-width {
+      width: 33%;
+      float: left;
+    }
+
     header {
       overflow: hidden;
     }
@@ -356,7 +366,21 @@ footer {
       font-size: 1.5em;
     }
 
-    
+    #about {
+      clear: both;
+      overflow: auto;
+    }
+
+    #skills {
+      clear: both;
+      overflow: auto;
+    }
+
+    #footer {
+      clear: both;
+    }
+
+
 }
 
 @media print,
