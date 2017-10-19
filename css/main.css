@@ -190,7 +190,7 @@ h1, h2, p {
   color: red;
 }
 
-ul {
+#skills ul {
   list-style: none;
   padding-right: 10%;
   font-size: 1.25em;
@@ -227,6 +227,10 @@ input {
   width: 45%;
   float: right;
   margin: 2%;
+}
+
+#contact ul {
+  list-style: none;
 }
 
 #contact img {
@@ -371,9 +375,24 @@ footer {
       font-size: 1.5em;
     }
 
+    /* About Section */
     #about {
       clear: both;
       overflow: auto;
+    }
+
+    #about .half-width {
+      width: 46%;
+      padding-left: 2%;
+      padding-right: 2%;
+      text-align: justify;
+      font-size: 1.5em;
+    }
+
+    #about img {
+      width: 20%;
+      margin-left: 40%;
+      height: auto;
     }
 
     /* Skills Section */
