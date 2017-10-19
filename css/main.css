@@ -236,6 +236,10 @@ input {
   margin: 2%;
 }
 
+#contact span {
+  display: none;
+}
+
 /* Footer Area */
 
 footer {
@@ -374,6 +378,37 @@ footer {
     #skills {
       clear: both;
       overflow: auto;
+    }
+
+    #contact {
+      clear: both;
+    }
+
+    #message {
+      height: 12em;
+    }
+
+    #contact img {
+      float: none;
+      padding-left: 10%;
+    }
+
+    #contact ul li a {
+      display: inline;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: black;
+      padding: 12%;
+      font-size: 1.5em;
+    }
+
+    #contact ul li a:hover{
+    	color: #ff0000;
+    }
+
+    #contact span {
+      display: inline;
+      padding: 12%;
     }
 
     #footer {
